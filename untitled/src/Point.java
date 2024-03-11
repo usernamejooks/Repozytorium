@@ -1,9 +1,9 @@
 public class Point {
-    public final double x,y;
+    public final int x;
+    public final int y;
 
-    public Point(double x,double y){
-        this.x=x;
-        this.y=y;
-        //leno paleno
+    public Point(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
-        }
+}
