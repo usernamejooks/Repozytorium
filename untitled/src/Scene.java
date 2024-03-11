@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SvgScene {
+public class Scene {
     private List<Shape> shapes;
 
-    public SvgScene() {
+    public Scene() {
         this.shapes = new ArrayList<>();
     }
 
